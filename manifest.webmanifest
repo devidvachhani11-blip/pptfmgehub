@@ -1,0 +1,14 @@
+{
+  "name": "PPTFMGEHUB",
+  "short_name": "PPT FMGE",
+  "description": "FMGE Premium: PDFs, tests and flash cards on your phone.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FFF6F8",
+  "theme_color": "#2A292F",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
