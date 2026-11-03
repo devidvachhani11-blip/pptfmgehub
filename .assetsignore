@@ -1,0 +1,7 @@
+worker.js
+wrangler.toml
+firestore.rules
+.assetsignore
+node_modules
+tools
+*.bak
