@@ -1,0 +1,24 @@
+name = "pptfmgehub"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/", "/index.html", "/api/*", "/study-tips", "/study-tips/*", "/terms", "/privacy", "/refund", "/sitemap.xml", "/robots.txt"]
+
+[[r2_buckets]]
+binding = "FILES"
+bucket_name = "pptfmgehub-files"
+
+[vars]
+# PASTE the new Firebase project ID of the FMGE site here
+PROJECT_ID = "pptfmgehub"
+ADMIN_EMAIL = "devid.vachhani11@gmail.com"
+# PASTE the new domain here
+SITE_URL = "https://pptfmgehub.com"
+# "1" = show only Coming soon and Study tips. "0" = the whole website. Nothing is deleted either way.
+COMING_SOON = "0"
+
+[triggers]
+crons = ["*/10 * * * *"]
